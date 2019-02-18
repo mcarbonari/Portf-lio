@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arte Digital</title>
+	<link rel="stylesheet" type="text/css" href="css/slide.css">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+	<meta name="viewport" content="width=device-width", initial-scale="1.0">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Início</a></li>
+				<li><a href="#main">Trabalhos</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="main" id="main">
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<div class="slide fade" id="slide">
+			<div class="numbertext">1 / 4</div>
+			<img class="pequeno" src="img/moça.png" style="height: 365px; width: 380px; margin-top: 30px;">
+			<img class="grande" src="img/moça.png" style="width: 400px; margin-left: 250px;">
+			<div class="text">Primeira arte utilizando FireALpaca.</div>
+		</div>
+		<div class="slide fade" id="slide">
+			<div class="numbertext">2 / 4</div>
+			<img class="pequeno" src="img/girassol.png">
+			<img class="grande" src="img/girassol2.png"style="width: 600px;  margin-left: 150px;">
+			<div class="text">Segunda tentativa, aquarela no FireALpaca</div>
+		</div>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		<div class="pontinhos">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		</div>
+	</main>
+	<footer class="contato" id="contato">
+		<h3>Quer me dar um emprego?</h3>
+		<div class="alinhar">
+			<a target="_blank" href="https://www.facebook.com/mariaeduarda.carbonari.1">
+				<img class="img1" src="img/fb.png">
+			</a>
+			<a target="_blank" href="mailto:marieduarda.s.carbonari@gmail.com?subject=Quero%20te%20contratar!">
+				<img class="img2" src="img/gmail.png">
+			</a>
+			<a target="_blank" href="">	
+				<img class="img3" src="img/tel.png">
+			</a>
+			<a target="_blank" href="http://twitter.com/messages/compose?recipient_id=547279886&text=Alo+quero+te+contratar">
+				<img class="img4" src="img/twitter.png">
+			</a>
+		</div>
+		<a href="">E clique aqui para ver meu currículo.</a>
+	</footer>
+
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/slide.js"></script>
+</body>
+</html>
